@@ -23,7 +23,7 @@ public class Hooks {
         }else if(webApp.equals("Etsy")){
             driver.get(ConfigReader.getProperty("EtsyAppURL"));
         }else if(webApp.equals("PizzaApp")){
-            driver.get(ConfigReader.getProperty("PizzaAppURL"));
+         driver.get(ConfigReader.getProperty("PizzaAppURL"));
         }
     }
 
@@ -43,7 +43,7 @@ public class Hooks {
             scenario.attach(screenshot, "image/png", "myFailure");
         }
 
-        driver.quit();
+       // driver.quit();
         System.out.println("Method runs after scenario");
     }
 }

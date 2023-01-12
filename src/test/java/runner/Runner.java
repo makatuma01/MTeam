@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/cucumber.json","rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = "steps",
-        tags = "@RTB-5",
+        tags = "@RTB-4",
         dryRun = false,
         publish = true
 

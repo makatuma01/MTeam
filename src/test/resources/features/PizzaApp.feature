@@ -2,6 +2,8 @@
 Feature: Pizza application place order functionality
 
   Scenario Outline: Validating successful place order
+
+
     Given user navigates to "PizzaApp" application
     When user creates pizza order with data
       | Pizza    | <Pizza>     |

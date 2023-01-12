@@ -26,7 +26,7 @@ public class Driver {
         if (driver==null || ((RemoteWebDriver)driver).getSessionId()==null){
             switch (browser) {
                 case "chrome":
-                    WebDriverManager.chromedriver().setup();
+                   WebDriverManager.chromedriver().setup();
                     ChromeOptions optionsChrome = new ChromeOptions();
                     optionsChrome.setHeadless(false);
                     driver = new ChromeDriver(optionsChrome);
@@ -47,4 +47,8 @@ public class Driver {
         }
         return driver;
     }
+
+
+
+
 }

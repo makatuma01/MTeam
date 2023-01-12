@@ -1,6 +1,9 @@
+/Users/makatuma/IdeaProjects/DmytroCucumber/src/test/java/utilities/ExcelUtils.java
 /Users/makatuma/IdeaProjects/DmytroCucumber/src/test/java/utilities/Driver.java
 /Users/makatuma/IdeaProjects/DmytroCucumber/src/test/java/steps/EtsyAppSteps.java
 /Users/makatuma/IdeaProjects/DmytroCucumber/src/test/java/steps/Hooks.java
+/Users/makatuma/IdeaProjects/DmytroCucumber/src/test/java/utilities/ExcelTest.java
+/Users/makatuma/IdeaProjects/DmytroCucumber/src/test/java/runner/ReRunner.java
 /Users/makatuma/IdeaProjects/DmytroCucumber/src/test/java/pages/EtsyAppSearchResultsPage.java
 /Users/makatuma/IdeaProjects/DmytroCucumber/src/test/java/runner/Runner.java
 /Users/makatuma/IdeaProjects/DmytroCucumber/src/test/java/utilities/BrowserUtils.java
